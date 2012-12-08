@@ -32,6 +32,9 @@
         text-align: center;
         cursor: pointer;
       }
+      .jumbotron:hover {
+        background: #111;
+      }
       .jumbotron h1 {
         font-size: 72px;
         line-height: 1;
@@ -55,6 +58,42 @@
 
       .video {
         display: none;
+      }
+
+      .footer {
+        overflow: hidden;
+        margin-bottom: 20px;
+      }
+
+      #tslink {
+        float: right; 
+        text-align: center; 
+        padding: 10px;
+        width:150px;
+      }
+
+      #tslink a {
+        color: white;
+        font-weight: bold;
+      }
+      #tslink a:hover {
+        text-decoration: none;
+        font-weight: lightblue;
+      }
+      #tslink:hover {
+        background: #111;
+        border-radius: 10px;
+      }
+
+      #tslink img {
+        display:block;
+        margin: 0px auto;
+        height: 100px;
+      }
+
+      #tslink span {
+        display:block;
+        margin-top: 10px;
       }
     </style>
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -145,6 +184,19 @@
       <hr>
 
       <div class="footer">
+        <div id="tslink">
+          <a href="http://www.teksyndicate.com">
+            <img src="img/rtwwhite.png" id="rtwlogo"/>
+            <img src="img/rtwblack.png" id="rtwblack" width="100px" style="display:none;"/>
+            <span>Visit Teksyndicate</span>
+          </a>
+        </div>
+        <div id="tslink">
+          <a href="https://www.github.com/churchoflogan/churchoflogan.github.com">
+            <img src="img/edit.png"/>
+            <span>Edit this site</span>
+          </a>
+        </div>
         <p>&copy; 2012 Some dodgey mother fucker with a beard</p>
       </div>
 
@@ -160,6 +212,12 @@
         $(".jumbotron").click(function() {
           $(this).find(".video").slideToggle();
         });
+        $("#tslink").hover(function() {
+          $("#rtwlogo").attr("src", "img/rtwblack.png");
+        }, function() {
+          $("#rtwlogo").attr("src", "img/rtwwhite.png");
+        });
+
       });
     </script>
   </body>
