@@ -1,7 +1,7 @@
 churchoflogan.github.com
 ========================
 
-This is the code for the site at [churchoflogan.com](http://churchoflogan.com).  This site captures the threats made by the great bearded mammal beast to people that don't subscribe to [Tek Syndicate](http://teksyndicate.com)'s YouTube channel](http://www.youtube.com/razethew0rld).  Which is fair dinkum to be honest.
+This is the code for the site at [churchoflogan.com](http://churchoflogan.com).  This site captures the threats made by the great bearded mammal beast to people that don't subscribe to [Tek Syndicate](http://teksyndicate.com)'s [YouTube channel](http://www.youtube.com/razethew0rld).  Which is fair dinkum to be honest.
 
 ## Contributing
 
