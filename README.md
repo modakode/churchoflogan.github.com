@@ -1,7 +1,7 @@
 churchoflogan.github.com
 ========================
 
-This is the code for the site at [churchoflogan.com](http://churchoflogan.com).  This site captures the threats made by the great bearded mammal beast to people that don't subscribe to [Tek Syndicate](http://teksyndicate.com)'s [youtube channel](https://www.youtube.com/feed/UCNovoA9w0KnxyDP5bGrOYzg).  Which is fair dinkum to be honest.
+This is the code for the site at [churchoflogan.com](http://churchoflogan.com).  This site captures the threats made by the great bearded mammal beast to people that don't subscribe to [Tek Syndicate](http://teksyndicate.com)'s YouTube channel](http://www.youtube.com/razethew0rld).  Which is fair dinkum to be honest.
 
 ## Contributing
 
@@ -9,7 +9,7 @@ To contribute to the site you can create a Github account if you don't already h
 
 ### Editing the site yourself
 
-Editing the site is pretty easy if you're just adding a new threat.  You can follow the format of the html that is already there or copy and paste this template and after putting the threat and video id in there:
+Editing the site is pretty easy if you're just adding a new threat.  You can follow the format of the html that is already there or copy and paste this template and after putting the threat and video ID in there:
 
 ```html
 <div class="jumbotron">
